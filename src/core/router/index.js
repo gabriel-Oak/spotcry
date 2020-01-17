@@ -1,11 +1,10 @@
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
-
-import SingIn from './pages/auth/SingIn';
+import AuthContainer from '../../views/auth';
 
 const Router = createAppContainer(
   createSwitchNavigator({
     Auth: {
-      screen: SingIn
+      screen: AuthContainer
     }
   })
 );
