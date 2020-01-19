@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 
-import { auth } from '../../views/auth';
+import { auth } from '../../pages/auth';
 
 const reducer = combineReducers({
   auth

@@ -1,5 +1,5 @@
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
-import AuthContainer from '../../views/auth';
+import AuthContainer from '../../pages/auth';
 
 const Router = createAppContainer(
   createSwitchNavigator({
